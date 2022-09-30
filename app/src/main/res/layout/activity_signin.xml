@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/orange_light_banner"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:viewBindingIgnore="true">
+        tools:context=".Activity.SignInActivity">
+
+
+
+
+        <ImageView
+            android:layout_width="191dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:src="@drawable/mylogo1"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Welcome to City Burger"
+            android:textColor="#ff8400"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Login to Continue"
+            android:textSize="20sp"></TextView>
+
+
+        <EditText
+            android:id="@+id/goTouserName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/cat_background2"
+            android:hint="User Name"
+            android:inputType="text"
+            android:padding="10dp"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+        <EditText
+            android:id="@+id/goToemailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/cat_background2"
+            android:hint="Email Address"
+            android:inputType="text"
+            android:padding="10dp"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+        <EditText
+            android:id="@+id/goToPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/cat_background2"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="388dp" />
+
+
+        <Button
+            android:id="@+id/goTologin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Login"
+            tools:layout_editor_absoluteX="120dp"
+            tools:layout_editor_absoluteY="481dp" />
+
+
+        <TextView
+            android:id="@+id/forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="40dp"
+            android:text="Forget Password"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="558dp" />
+
+        <TextView
+            android:id="@+id/goToSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:text="Sign Up"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="558dp" />
+
+    </LinearLayout>
+
+</layout>
+
